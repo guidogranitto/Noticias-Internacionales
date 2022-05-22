@@ -1,0 +1,154 @@
+.header {
+	width: 100%;
+	margin:0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+  	top: 0; left: 0; right: 0;
+  	height: 95px;
+    background-color: #080b0c;
+}
+
+.barra {
+    text-align: center;
+    
+    position: fixed;
+    width: 110%;
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -25px;
+
+}
+
+.header {
+    background-color: #080b0c;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* .header h1 {
+    display: flex;
+    color: #ffffff;
+    padding-left: 710px;
+    padding-right: 710px;
+    padding-top: -50px;
+} */
+
+/* #forex {
+
+} */
+
+
+#nav {
+  position:fixed; /* esto es para que la barra quede fija */
+  z-index:3; /* esto es para que la barra quede fija */
+  padding: 5px;
+  top: 120px;
+  height: 50px;
+  align-items: fixed;
+  margin-left: 18%;
+}
+
+#nav a:link {
+	text-decoration: none;
+    border: 1px solid #414a4d;
+    box-shadow:0 0 0 1px #090d0e;
+    padding: 8px 16px 8px 16px; /* tamaño botones desde las letras al borde */
+    margin-left: 10px;
+    margin-right: 4px;
+    border-radius:10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgb(117, 114, 114);
+	color: white;
+    background: #080b0c; /* fallback para navegadores que no soporten degradados */
+    background: -moz-linear-gradient(top, #585f61 20%, #0e1416 80%);
+    background: -webkit-linear-gradient(top, #585f61 20%,#0e1416 80%);
+}
+
+
+#nav a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+
+#nav a:hover {
+	font-weight: bold;
+    background: #36263b;
+    background: -moz-linear-gradient(top, #4d5355 20%, #869291 80%);
+    background: -webkit-linear-gradient(top, #4d5355 20%,#869291 80%);
+}
+
+
+.noticias {    
+    padding-top: 150px;
+}
+
+* {
+    box-sizing: border-box;  /* https://midu.dev/que-es-y-para-que-sirve-box-sizing-border-box/ */
+    font-family: "Lucida Sans", sans-serif;
+}
+.contenedor {
+    margin-top: 75px;
+}
+
+.flex-containerh {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: yellowgreen;
+    justify-content:space-between
+}
+
+
+.flex-containerh>div {
+    color: white;
+    background-color: green;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border: 8px double black
+}
+
+.flex-containerv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;            
+}
+
+
+.flex-containerv>div {
+    color: white;
+    background-color: yellowgreen;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border: 4px solid black
+}
+
+#nota_principal {
+    max-width: 60%;
+}
+
+#nota_principal_txt {
+    max-width: 60%;
+    min-height: 70%;
+}
+
+#segunda_side {
+    width: 40%;
+    height: 400px;
+}
+
+#secundria {
+    height: 150px;
+}
+
+#nota_cuadruple {
+    height: 400px;
+}

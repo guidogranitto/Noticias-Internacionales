@@ -1,0 +1,638 @@
+/* --------------------- Navegador Movil --------------------- */
+/* --------------------- Navegador Movil --------------------- */
+  
+  .mobile-container {
+    display: none;
+    text-shadow: none;
+    text-align: left;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: rgb(0, 0, 0);
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 21px;
+    top: 0;
+  }
+  
+  .topnav a.icon:hover {
+    background: #404141;
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 21px;
+    top: 0;
+  }
+
+  #myLinks a:hover {
+    background-color: #ddd;
+    color: black;
+  }  
+
+  
+  .active {
+    background-color: #2c4272;
+    height: 21px;
+    color: white;
+  }
+
+
+/* --------------------- Navegador Movil --------------------- */
+/* --------------------- Navegador Movil --------------------- */
+
+
+
+.barra {
+    z-index: 1;
+    width: 101%;
+    text-align: center;
+    position: fixed;
+    background-color: #080b0c;
+    height: 155px;
+    margin-left: -10px;
+    margin-top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 2px rgb(8, 8, 8);
+}
+
+.header {
+	width: 101%;
+	margin-left:-10px;
+    margin-right: -30px;
+    margin-top: 0px;
+	display: flex;
+    font-size: 10px;
+	align-items: center;
+	justify-content: center;
+  	height: 75px;
+    color: #ffffff;
+    padding-top: 40px;
+/*     background-image: url("header3BN.png");
+ */}
+
+.logo {
+    margin-top: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    padding-top: 0px;
+}
+
+#nav {
+    padding-top: 9px;
+}
+
+#nav {
+display: inline-block;   
+vertical-align: super;
+}
+
+.subnav {
+    padding-top: 150px;
+}
+
+#nav a:link {
+	text-decoration: none;
+    border: 1px solid #414a4d;
+    box-shadow:0 0 0 1px #090d0e;
+    padding: 8px 16px 8px 16px; /* tamaño botones desde las letras al borde */
+    margin-left: 10px;
+    margin-right: 4px;
+    border-radius:10px;
+    font-weight: bold;
+    font-size: 10px;
+    text-shadow: 1px 1px 0px rgb(117, 114, 114);
+	color: white;
+    background: #080b0c; /* fallback para navegadores que no soporten degradados */
+   /*  background: -moz-linear-gradient(top, #585f61 20%, #0e1416 80%);
+    background: -webkit-linear-gradient(top, #585f61 20%,#0e1416 80%); */
+}
+
+
+#nav a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+
+#nav a:hover {
+	font-weight: bold;
+    background: #080808;
+    background: -moz-linear-gradient(top, #555c5b 20%, #080808 80%);
+    background: -webkit-linear-gradient(top, #555c5b 20%,#080808 80%);
+}
+
+.fecha {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#noticias {
+    padding-top: 150px;
+}
+
+.mail:hover {
+opacity: calc(40%);
+transition: .5s ease;
+}
+
+.twitter:hover {
+    opacity: calc(40%);
+    transition: .5s ease;
+}
+
+.instagram:hover {
+opacity: calc(40%);
+transition: .5s ease;
+}
+
+.grid-container-grl {
+    margin-left: 15%;
+    margin-right: 1%;
+    display: grid;
+    display: inline-grid;
+    width: 71%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.grid-container1 {
+display: grid;
+display: inline-grid;
+width: 99%;
+grid-template-columns: 57% 42.5%;   
+gap: 5px; 
+scrollbar-darkshadow-color: #555c5b;/* background-color: rgb(3, 3, 3);
+ */padding: 5px;                          
+/* border: 2px solid rgb(0, 0, 0);           
+ */
+}
+
+.grid-container2 {
+margin-top: 10px;
+display: grid;
+display: inline-grid;
+width: 99%;
+grid-template-columns: auto auto auto;   
+gap: 5px;                               
+/* background-color: rgb(3, 3, 3);
+ */padding: 5px;                          
+/* border: 2px solid rgb(0, 0, 0);           
+ */    
+}
+
+.grid-container3 {
+    display: grid;
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 5px;                               
+/*     background-color: rgb(3, 3, 3);
+ */    padding: 5px;                          
+/*     border: 2px solid rgb(0, 0, 0);           
+ */        
+    }
+
+.grid-container4 {
+    display: grid;
+    display: inline-grid;
+    width: 99%;
+    grid-template-columns: auto auto auto;   
+    gap: 5px;                               
+/*     background-color: rgb(3, 3, 3);
+ */    padding: 5px;                          
+/*     border: 2px solid rgb(0, 0, 0);           
+ */        
+}
+
+.grid-container5 {
+    display: grid;
+    display: inline-grid;
+    width: 99%;
+    grid-template-columns: auto auto auto auto auto;   
+    gap: 5px;                               
+/*     background-color: rgb(3, 3, 3);
+ */    padding: 5px;                          
+/*     border: 2px solid rgb(0, 0, 0);           
+ */        
+}
+
+.grid-container6 {
+    margin-top: 10px;
+    display: grid;
+    display: inline-grid;
+    width: 99%;
+    grid-template-columns: auto auto;   
+    gap: 5px;                               
+/*     background-color: rgb(3, 3, 3);
+ */    padding: 5px;                          
+/*     border: 2px solid rgb(0, 0, 0);           
+ */    
+}
+
+.grid-item {
+    background-color: yellow;
+    color:black;              
+    padding:5px;
+    text-align: center;  
+    border-radius: 0px;        
+}
+
+.grid-itemf {
+    color:rgb(255, 255, 255);              
+    padding:5px;
+    text-align: center;  
+    border-radius: 0px;  
+}
+
+.notaprin {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 60;             /* Finaliza en la columna 4 */
+    border: 1px solid rgb(197, 197, 197);   
+    border-radius: 5px;
+}
+
+.notasec {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 60;             /* Finaliza en la columna 4 */
+    border: 1px solid rgb(197, 197, 197);  
+    border-radius: 5px; 
+}
+
+.notder {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 65;             /* Finaliza en la columna 4 */
+    border: 1px solid rgb(197, 197, 197);   
+    border-radius: 5px;
+}
+
+.notmid {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 65;             /* Finaliza en la columna 4 */
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;   
+}
+
+.notizq {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 65;             /* Finaliza en la columna 4 */
+    border: 1px solid rgb(197, 197, 197); 
+    border-radius: 5px;  
+}
+
+.peli1 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 60;             /* Finaliza en la columna 4 */
+}
+
+.peli2 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 60;             /* Finaliza en la columna 4 */
+}
+
+.peli3 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 60;             /* Finaliza en la columna 4 */
+}
+
+.peli4 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 60;             /* Finaliza en la columna 4 */
+}
+
+.notder2 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 65;             /* Finaliza en la columna 4 */
+    border: 1px solid rgb(197, 197, 197);   
+    border-radius: 5px;
+}
+
+.notmid2 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 65;             /* Finaliza en la columna 4 */
+    border: 1px solid rgb(197, 197, 197);   
+    border-radius: 5px;
+}
+
+.notizq2 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 65;             /* Finaliza en la columna 4 */
+    border: 1px solid rgb(197, 197, 197);   
+    border-radius: 5px;
+}
+
+.infog1 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 40;             /* Finaliza en la columna 4 */
+}
+
+.infog2 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 40;             /* Finaliza en la columna 4 */
+}
+
+.infog3 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 40;             /* Finaliza en la columna 4 */
+}
+
+.infog4 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 40;             /* Finaliza en la columna 4 */
+}
+
+
+.infog5 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 40;             /* Finaliza en la columna 4 */
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer {
+	width: 103%;
+	margin-left:-10px;
+    margin-right: -30px;
+    margin-top: 20px;
+	display: flex;
+    font-size: 10px;
+	align-items: center;
+	justify-content: center;
+  	height: 90px;
+    color: #ffffff;
+    padding-top: 40px;
+    background-color: #080808;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.foto {
+    background-color: white;   /* Color de fondo del hijo */
+    height: 45%;
+    min-width: 150px;
+}
+
+.titulo {
+    margin-top: 5px;
+    background-color: white;   /* Color de fondo del hijo */
+    height: 10%;
+    font-weight: bold;
+    text-align: left;
+}
+
+.resumen {
+    margin-top: 15px;
+    background-color: white;   /* Color de fondo del hijo */
+    height: 20%;
+}
+
+.firma {
+    margin-top: 13px;
+    background-color: white;   /* Color de fondo del hijo */
+    height: 5%;
+    color: #a7a8a8;
+    font-size: 14px;
+    font-style:italic;
+}
+
+.fotopyi {
+    background-color: white;   /* Color de fondo del hijo */
+    height: 85%;
+}
+
+.containerZ {
+    background-color: #080808;
+    border-radius: 300px;
+    position: relative;
+    width: 100%;
+}
+
+.imageZ {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 500px;
+    border: solid 1px;
+    border-color: #777575;
+  }
+  
+  .middleZ {
+    transition: .5s ease;
+    opacity: 0;
+    top: 40%;
+    margin-left: 5%;
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+/* .textZ {
+    
+  } */
+  
+  .containerZ:hover .imageZ {
+    opacity: 0.2;
+  }
+  
+  .containerZ:hover .middleZ {
+    opacity: 1;
+    border-radius: 300px;
+  }
+
+
+.containerFilm {
+    position: relative;
+    width: 100%;
+    background-color: #000000;
+}
+
+.imageFilm {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    min-height: 150px;
+    height: 300px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: solid 1px;
+    border-color: #000000;
+  }
+  
+  .middleFilm {
+    transition: .5s ease;
+    opacity: 0;
+    left: 18%;
+    top: 40%;
+    position: absolute;
+    text-align: center;
+    color: #000000;
+  }
+  
+.containerFilm:hover .imageFilm {
+    opacity: 0.2;
+}
+  
+  .containerFilm:hover .middleFilm {
+    opacity: 1;
+  }
+  
+.textFilm {
+    position: relative;
+/*     background-color: #e9f35b;
+    border-color: #000000;
+    border: 0.9px;
+    border-style: solid; */
+    color: rgb(255, 255, 255);
+    width: 93.5%;
+    font-size: 14px;
+/*     font-weight: bold;
+ */    padding: 10px ;
+    opacity: 1;
+  }
+
+
+.pelis {
+    background-color: white;   /* Color de fondo del hijo */
+    width: 100%;
+}
+
+/* .peli1:hover {
+    opacity: calc(40%);
+    transition: .5s ease;
+}
+
+.peli2:hover {
+    opacity: calc(40%);
+    transition: .5s ease;
+}
+
+.peli3:hover {
+    opacity: calc(40%);
+    transition: .5s ease;
+} */
+
+/* aaaaaaaaaaaaaaaaaaa */
+
+/* .middlefilm {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.peli2:hover .middlefilm {
+    opacity: 1;
+}
+  
+.textfilm {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding: 16px 32px;
+} */
+
+/* aaaaaaaaaaaaaaaaaaa */
+
+/* .peli4:hover {
+    opacity: calc(40%);
+    transition: .5s ease;
+} */
+
+.libros {
+    background-color: white;   /* Color de fondo del hijo */
+    height: 90%;
+}
+
+.libro1 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 60;             /* Finaliza en la columna 4 */
+}
+
+.libro2 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 60;             /* Finaliza en la columna 4 */
+}
+
+.libro3 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 60;             /* Finaliza en la columna 4 */
+}
+
+.libro4 {
+    background-color: white;   /* Color de fondo del hijo */
+    grid-row-start: 1;           /* Comienza en la columna 2 */
+    grid-row-end: 60;             /* Finaliza en la columna 4 */
+}
+
+/* .libro1:hover {
+    opacity: calc(40%);
+    transition: .5s ease;
+}
+
+.libro2:hover {
+    opacity: calc(40%);
+    transition: .5s ease;
+}
+
+.libro3:hover {
+    opacity: calc(40%);
+    transition: .5s ease;
+}
+
+.libro4:hover {
+    opacity: calc(40%);
+    transition: .5s ease;
+} */
