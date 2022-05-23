@@ -1225,7 +1225,6 @@ h3 {
 
     .titulo {
         margin-top: 5px;
-        background-color: white;
         /* Color de fondo del hijo */
         font-weight: bold;
         text-align: left;
@@ -1234,7 +1233,6 @@ h3 {
 
     .resumen {
         margin-top: 5px;
-        background-color: white;
         /* Color de fondo del hijo */
         font-size: 13px;
 
