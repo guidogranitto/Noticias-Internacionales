@@ -28,6 +28,12 @@
     display: block;
 }
 
+.urgente {
+    padding-left: 0%;
+    font-size: 11px;
+    margin-left: 0%;
+}
+
 .topnav a.icon {
     background: rgb(0, 0, 0);
     display: block;
@@ -87,10 +93,10 @@
     align-items: center;
     justify-content: center;
     height: 75px;
-    color: #ffffff;
+    color: #000000;
     padding-top: 40px;
-    /*     background-image: url("header3BN.png");
- */
+    text-shadow: none;
+    background-image: url("header3BN.png");
 }
 
 .logo {
@@ -480,7 +486,6 @@ h3 {
 .foto {
     background-color: white;
     /* Color de fondo del hijo */
-    height: 45%;
     min-width: 150px;
 }
 
@@ -488,7 +493,6 @@ h3 {
     margin-top: 5px;
     background-color: white;
     /* Color de fondo del hijo */
-    height: 10%;
     font-weight: bold;
     text-align: left;
 }
@@ -497,14 +501,12 @@ h3 {
     margin-top: 15px;
     background-color: white;
     /* Color de fondo del hijo */
-    height: 20%;
 }
 
 .firma {
     margin-top: 13px;
     background-color: white;
     /* Color de fondo del hijo */
-    height: 5%;
     color: #a7a8a8;
     font-size: 14px;
     font-style: italic;
@@ -618,52 +620,6 @@ h3 {
     width: 100%;
 }
 
-/* .peli1:hover {
-    opacity: calc(40%);
-    transition: .5s ease;
-}
-
-.peli2:hover {
-    opacity: calc(40%);
-    transition: .5s ease;
-}
-
-.peli3:hover {
-    opacity: calc(40%);
-    transition: .5s ease;
-} */
-
-/* aaaaaaaaaaaaaaaaaaa */
-
-/* .middlefilm {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.peli2:hover .middlefilm {
-    opacity: 1;
-}
-  
-.textfilm {
-    background-color: #000000;
-    color: rgb(0, 0, 0);
-    font-size: 12px;
-    padding: 16px 32px;
-} */
-
-/* aaaaaaaaaaaaaaaaaaa */
-
-/* .peli4:hover {
-    opacity: calc(40%);
-    transition: .5s ease;
-} */
-
 .libros {
     background-color: white;
     /* Color de fondo del hijo */
@@ -705,28 +661,6 @@ h3 {
     grid-row-end: 60;
     /* Finaliza en la columna 4 */
 }
-
-/* .libro1:hover {
-    opacity: calc(40%);
-    transition: .5s ease;
-}
-
-.libro2:hover {
-    opacity: calc(40%);
-    transition: .5s ease;
-}
-
-.libro3:hover {
-    opacity: calc(40%);
-    transition: .5s ease;
-}
-
-.libro4:hover {
-    opacity: calc(40%);
-    transition: .5s ease;
-} */
-
-
 
 /*----------------------------------------------------------------*/
 /* Punto de corte para pantallas tipo TABLET XL   NO TOCAR          */
@@ -805,7 +739,6 @@ h3 {
         display: inline-grid;
         width: 100%;
         height: 100%;
-        scrollbar-darkshadow-color: #555c5b;
         padding: 5px;
         grid-template-areas: "notaprin notaprin""notasec notasec";
 
@@ -936,6 +869,10 @@ h3 {
         display: flex;
     }
 
+    .vermas {
+        font-size: 12px;
+    }
+
     .vermasH {
         display: none;
     }
@@ -946,27 +883,27 @@ h3 {
         /* Color de fondo del hijo */
         font-weight: bold;
         text-align: left;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .resumen {
         margin-top: 5px;
         background-color: white;
         /* Color de fondo del hijo */
-        font-size: 13px;
+        font-size: 17px;
 
     }
 
     .firma {
         margin-top: 2px;
         color: #a7a8a8;
-        font-size: 11px;
+        font-size: 13px;
         font-style: italic;
     }
 
     .urgente {
         padding-left: 0%;
-        font-size: 2%;
+        font-size: 10px;
         margin-left: 0%;
         max-width: 890px;
     }
@@ -975,7 +912,7 @@ h3 {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-transform: uppercase;
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
         padding-top: 10px;
     }
 
@@ -1106,7 +1043,6 @@ h3 {
         /* Finaliza en la columna 4 */
         max-width: 430px;
         padding-bottom: 15px;
-        height: auto;
     }
 
     .notasec {
@@ -1118,7 +1054,6 @@ h3 {
         /* Finaliza en la columna 4 */
         max-width: 430px;
         padding-bottom: 15px;
-        height: auto;
     }
 
 
@@ -1219,6 +1154,10 @@ h3 {
         padding-left: 20%;
     }
 
+    .vermas {
+        font-size: 15px;
+    }
+
     .vermasH {
         display: none;
     }
@@ -1247,7 +1186,7 @@ h3 {
 
     .urgente {
         padding-left: 0%;
-        font-size: 3px;
+        font-size: 5px;
         margin-left: 0%;
         max-width: 430px;
     }
@@ -1266,7 +1205,8 @@ h3 {
     }
 
     .footer {
-        margin-left: 0px;
+        width: 105%;
+        margin-left: -10px;
         margin-bottom: 0px;
         display: flex;
         font-size: 10px;
