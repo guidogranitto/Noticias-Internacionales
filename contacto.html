@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosForm.css">
+
+    <link rel="stylesheet" type="text/css" href="estilospContacto.css">
+    <title>Document</title>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="barra">
+
+
+        <div class="header">
+
+            <div class="grid-container-head">
+
+                <div class="grid-iteml logoros"><img src="mundo.png"
+                        style="width: 70px; height: 70px; margin-bottom: -20px; margin-top: -20px;"></div>
+
+                <div><br></div>
+
+                <div class="grid-iteml tituloros">
+                    <h1>NOTICIAS</h1><br>
+                </div>
+
+            </div>
+
+        </div>
+
+        <nav id="nav" style="text-align: center;">
+            <a href="index.html" class="button">INICIO</a>
+            <a href="geopolitica.html" class="button">AMBIENTALES</a>
+            <a href="argentina.html" class="button">ARGENTINA</a>
+            <a href="conflictos.html" class="button">TURISMO</a>
+            <a href="economia.html" class="button">ECONOMIA</a>
+            <a href="tecnologia.html" class="button">TECNOLOGIA</a>
+            <a href="editorial.html" class="button">CONTACTO</a>
+        </nav>
+
+        <!-- Simulate a smartphone / tablet -->
+        <div class="mobile-container">
+
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="#home" class="active">NOTICIAS</a>
+                <div id="myLinks">
+                    <a href="index.html" class="button">INICIO</a>
+                    <a href="geopolitica.html" class="button">AMBIENTALES</a>
+                    <a href="argentina.html" class="button">ARGENTINA</a>
+                    <a href="conflictos.html" class="button">TURISMO</a>
+                    <a href="economia.html" class="button">ECONOMIA</a>
+                    <a href="tecnologia.html" class="button">TECNOLOGIA</a>
+                    <a href="contacto.html" class="button">CONTACTO</a>
+                    <a href="editorial.html" class="button">ULTIMAS NOTICIAS</a>
+                    <a href="editorial.html" class="button">LO MAS LEIDO</a>
+
+
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <img src="mundo.png"
+                        style="width: 30px; height: 30px; margin-bottom: 0px; margin-top: -7px; margin-right: 6px; margin-left: 0px;">
+                </a>
+            </div>
+
+            <!-- End smartphone / tablet look -->
+        </div>
+
+    </div>
+
+
+
+
+    <div class="subnav">
+        <div class="icon">
+
+            <div class="fecha">
+                <script>
+                    var meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+                    var diasSemana = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+                    var f = new Date();
+                    document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                </script>
+            </div>
+
+
+        </div>
+
+
+        <div class="icons" style="justify-content: center;"><a href="mailto:contactoordenmundial@gmail.com"><img
+                    src="mail_icon.png" class="mail" style="padding-left: 15px;" alt="twitter" width="40px"
+                    height="40px"></a><a href="https://twitter.com/elordenmundial" target="_blank"><img
+                    src="twitter_icon.png" class="twitter" style="padding-left: 25px;" alt="twitter" width="38px"
+                    height="38px"></a><a href="https://www.instagram.com/ordenmundialph/?hl=es-la.html"
+                target="_blank"><img src="instagram_icon.png" class="instagram"
+                    style="padding-left: 20px; padding-right:3%" width="40px" height="40px" alt="twitter"></a>
+        </div>
+
+
+
+        <div class="grid-container-grl">
+
+
+            <div class="vermas">
+                <h3 style="margin-left: 15px;">QUERES ESCRIBIR PARA NOSOTROS<nav id="nav"
+                        style="text-align:left; margin-top: 15px;">
+                </h3>
+            </div>
+
+            <div class="grid-item resumen" style="text-align: justify; ">Llena el formulario a continuacion para
+                registrarte como posible periodista, luego recibiras un correo con un enlace para completar un
+                formulario en donde nos podras comentar cual es tu interes de escribir para nosotros, cual es tu
+                experiencia previa, estudios relacionados con el periodismo realizados. Estos datos son necesarios para
+                seleccionar a los candidatos. No te olvides de completar todos los campos del formulario ya que el mismo
+                no se envia si no estan completos como corresponde.
+            </div>
+
+            <div class="grid-container1">
+
+                <form action="" class="formulario" id="formulario">
+                    <!-- Grupo: Usuario -->
+                    <div class="formulario__grupo" id="grupo__usuario">
+                        <label for="usuario" class="formulario__label">Usuario</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="usuario" id="usuario"
+                                placeholder="Te recomendamos poner la inicial de tu nombre seguido de tu apellido">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede
+                            contener numeros, letras y guion bajo.</p>
+                    </div>
+
+                    <!-- Grupo: Nombre -->
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Nombre y Apellido</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="nombre" id="nombre"
+                                placeholder="Tu nombre nos permite tener un trato personalizado">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede
+                            contener numeros, letras y guion bajo.</p>
+                    </div>
+
+                    <!-- Grupo: Contraseña -->
+                    <div class="formulario__grupo" id="grupo__password">
+                        <label for="password" class="formulario__label">Contraseña</label>
+                        <div class="formulario__grupo-input">
+                            <input type="password" class="formulario__input" name="password" id="password">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
+                    </div>
+
+                    <!-- Grupo: Contraseña 2 -->
+                    <div class="formulario__grupo" id="grupo__password2">
+                        <label for="password2" class="formulario__label">Repetir Contraseña</label>
+                        <div class="formulario__grupo-input">
+                            <input type="password" class="formulario__input" name="password2" id="password2">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
+                    </div>
+
+                    <!-- Grupo: Correo Electronico -->
+                    <div class="formulario__grupo" id="grupo__correo">
+                        <label for="correo" class="formulario__label">Correo Electrónico</label>
+                        <div class="formulario__grupo-input">
+                            <input type="email" class="formulario__input" name="correo" id="correo"
+                                placeholder="Utiliza una direccion de correo valido. Ej:correo@correo.com">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos,
+                            guiones y guion bajo.</p>
+                    </div>
+
+                    <!-- Grupo: Teléfono -->
+                    <div class="formulario__grupo" id="grupo__telefono">
+                        <label for="telefono" class="formulario__label">Teléfono</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="telefono" id="telefono"
+                                placeholder="Preferentemente un celular">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14
+                            dígitos.</p>
+                    </div>
+
+                    <!-- Grupo: Terminos y Condiciones -->
+
+                    <div class="formulario__mensaje" id="formulario__mensaje">
+                        <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario
+                            correctamente. </p>
+                    </div>
+
+                    <div class="formulario__grupo formulario__grupo-btn-enviar">
+                        <button type="submit" class="formulario__btn">Enviar</button>
+                        <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado
+                            exitosamente!</p>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+        <div class="footer">
+
+            <div class="grid-container-foot">
+
+                <div class="grid-itemf logorosf"><img src="mundo.png" ,
+                        style="width: 70px; height: 70px; margin-bottom: -20px; margin-top: 40px;"></div>
+
+                <div class="grid-itemf titulorosf">
+                    <h1>Noticias</h1>
+                </div>
+
+                <div class="grid-itemf fraserosf" style="margin-bottom: 60px; margin-top: -40px;">
+                    <h3>Blog de Noticias”</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="formulario.js"></script>
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
