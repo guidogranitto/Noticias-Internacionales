@@ -188,7 +188,7 @@
 
 .grid-container-grl {
     margin-left: 14%;
-    margin-right: 1%;
+    margin-right: 14%;
     display: grid;
     display: inline-grid;
     width: 71%;
@@ -888,6 +888,7 @@ h3 {
 
     .resumen {
         margin-top: 5px;
+        width: 90%;
         background-color: white;
         /* Color de fondo del hijo */
         font-size: 17px;

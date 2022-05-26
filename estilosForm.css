@@ -43,7 +43,9 @@
 
 .formulario__input-error {
     font-size: 12px;
+    margin-left: 5px;
     margin-bottom: 0;
+    color: #bb2929;
     display: none;
 }
 
@@ -67,6 +69,11 @@
 .formulario__grupo-terminos,
 .formulario__mensaje,
 .formulario__grupo-btn-enviar {
+    grid-column: span 2;
+}
+
+.formulario__textera {
+    width: 100%;
     grid-column: span 2;
 }
 
@@ -122,7 +129,7 @@
 
 /* ----- -----  Estilos para Validacion ----- ----- */
 .formulario__grupo-correcto .formulario__validacion-estado {
-    color: #1ed12d;
+    color: #1e66d1;
     opacity: 1;
 }
 
@@ -156,6 +163,10 @@
         width: 100%;
     }
 
+    .formulario__textera {
+        width: 100%;
+        grid-column: span 1;
+    }
 
 
 }
