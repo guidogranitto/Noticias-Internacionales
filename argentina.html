@@ -1,69 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="estilosp.css">
+    <link rel="stylesheet" type="text/css" href="estilospContacto.css">
     <title>Document</title>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
 </head>
+
 <body>
 
-    <div class="barra">  
+    <div class="barra">
 
-    
+
         <div class="header">
-    
+
             <div class="grid-container-head">
-    
-                <div class="grid-iteml logoros"><img src="rosca-logo.png", style="width: 70px; height: 70px; margin-bottom: -20px; margin-top: -20px;"></div>
-    
+
+                <div class="grid-iteml logoros"><img src="mundo.png"
+                        style="width: 70px; height: 70px; margin-bottom: -20px; margin-top: -20px;"></div>
+
                 <div><br></div>
-                
-                <div class="grid-iteml tituloros"><h1>ROSCA MUNDIAL</h1><br></div>
-    
+
+                <div class="grid-iteml tituloros">
+                    <h1>NOTICIAS</h1><br>
+                </div>
+
             </div>
-    
+
         </div>
 
-        <nav id="nav" style="text-align: center;"> 
-            <a href="navegador.html" class="button">INICIO</a>
-            <a href="geopolitica.html" class="button">GEOPOLITICA</a>
+        <nav id="nav" style="text-align: center;">
+            <a href="index.html" class="button">INICIO</a>
+            <a href="geopolitica.html" class="button">AMBIENTALES</a>
             <a href="argentina.html" class="button">ARGENTINA</a>
-            <a href="conflictos.html" class="button">CONFLICTOS</a>
+            <a href="conflictos.html" class="button">TURISMO</a>
             <a href="economia.html" class="button">ECONOMIA</a>
             <a href="tecnologia.html" class="button">TECNOLOGIA</a>
-            <a href="editorial.html" class="button">EDITORIAL</a>
+            <a href="contacto.html" class="button">CONTACTO</a>
         </nav>
-</div>
 
-<div class="subnav">
-<div class="icon"><!-- <div id="TT_FiegbBYBYnn9MFKKLfVzjjzDDWaKT4SbZywiAhrV2rE"></div> -->
-<!-- <script type="text/javascript" src="https://www.tutiempo.net/s-widget/l_FiegbBYBYnn9MFKKLfVzjjzDDWaKT4SbZywiAhrV2rE"></script>
- -->			
-<!-- 			<p>
- -->	<div class="fecha">					
-			<script>
-					var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
-					var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
-					var f=new Date();
-					document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
-			</script>
-	    </div>
+        <!-- Simulate a smartphone / tablet -->
+        <div class="mobile-container">
 
-<!-- 			</p>
- -->
-	</div>
-	
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="#home" class="active">NOTICIAS</a>
+                <div id="myLinks">
+                    <a href="index.html" class="button">INICIO</a>
+                    <a href="geopolitica.html" class="button">AMBIENTALES</a>
+                    <a href="argentina.html" class="button">ARGENTINA</a>
+                    <a href="conflictos.html" class="button">TURISMO</a>
+                    <a href="economia.html" class="button">ECONOMIA</a>
+                    <a href="tecnologia.html" class="button">TECNOLOGIA</a>
+                    <a href="contacto.html" class="button">CONTACTO</a>
+                    <a href="editorial.html" class="button">ULTIMAS NOTICIAS</a>
+                    <a href="editorial.html" class="button">LO MAS LEIDO</a>
 
-<div class="icons"><a href="mailto:contactoordenmundial@gmail.com"><img src="mail_icon.png" class="mail" style="padding-left: 15px;" alt="twitter" width="40px" height="40px"></a><a href="https://twitter.com/elordenmundial" target="_blank"><img src="twitter_icon.png" class="twitter" style="padding-left: 25px;" alt="twitter" width="38px" height="38px"></a><a href="https://www.instagram.com/ordenmundialph/?hl=es-la.html" target="_blank"><img src="instagram_icon.png" class="instagram" style="padding-left: 20px; padding-right:3%" width="40px" height="40px" alt="twitter"></a><iframe class="forex" height="30" scrolling="no" src="https://www.dailyforex.com/forex-widget/widget/37866" style="width: 70%; padding-left: 0px; padding-bottom: 5px; border:1px solid #303030; border-radius:10px; padding-right: 9px; height:40px; align-content: center; display:inline ;overflow:hidden;"></iframe><span style="position:relative;display:block;text-align:center;color:#ebe6e6;width:1350px;font-family:Tahoma,sans-serif;font-size:20px;"></span></div>
 
-<!-- <p>
-    <input type="search" name="busquedamusica" placeholder="Notas, Temas...">
-    <input type="submit" value="Buscar">
-</p> -->
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <img src="mundo.png"
+                        style="width: 30px; height: 30px; margin-bottom: 0px; margin-top: -7px; margin-right: 6px; margin-left: 0px;">
+                </a>
+            </div>
 
-</div>
+            <!-- End smartphone / tablet look -->
+        </div>
 
+    </div>
+
+
+
+
+    <div class="subnav">
+        <div class="icon">
+
+            <div class="fecha">
+                <script>
+                    var meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+                    var diasSemana = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+                    var f = new Date();
+                    document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                </script>
+            </div>
+
+
+        </div>
+
+
+        <div class="icons" style="justify-content: center;"><a href="mailto:contactoordenmundial@gmail.com"><img
+                    src="mail_icon.png" class="mail" style="padding-left: 15px;" alt="twitter" width="40px"
+                    height="40px"></a><a href="https://twitter.com/elordenmundial" target="_blank"><img
+                    src="twitter_icon.png" class="twitter" style="padding-left: 25px;" alt="twitter" width="38px"
+                    height="38px"></a><a href="https://www.instagram.com/ordenmundialph/?hl=es-la.html"
+                target="_blank"><img src="instagram_icon.png" class="instagram"
+                    style="padding-left: 20px; padding-right:3%" width="40px" height="40px" alt="twitter"></a>
+        </div>
+
+
+
+        <div class="grid-container-grl">
+
+
+            <div class="grid-container1">
+
+                <div class="grid-item notaprin">
+                    <div class="grid-item titulo">Tras retroceder en Kiev y reagrupar sus fuerzas, Rusia comenzó con la
+                        gran ofensiva en el este de Ucrania</div>
+                    <div class="grid-item resumen" style="text-align: justify; ">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Rem animi nulla, inventore in temporibus nostrum expedita dolore reiciendis
+                        quo? Facere maxime dignissimos non molestias laboriosam sequi porro numquam reiciendis veniam.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. .</div>
+                    <div class="grid-item foto"><img src="fotoejemplo1.jpg" , alt="imagen1"
+                            style="width: 100%; border-radius: 5px; height: 100%"></div>
+                    <div class="grid-item resumen" style="text-align: justify; ">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Rem animi nulla, inventore in temporibus nostrum expedita dolore reiciendis
+                        quo? Facere maxime dignissimos non molestias laboriosam sequi porro numquam reiciendis veniam.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quo vitae qui culpa non, laudantium totam in provident inventore iusto a
+                        aspernatur ex modi tenetur tempore quibusdam repudiandae asperiores delectus reiciendis. Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Repellat incidunt porro aliquam dolor
+                        voluptatem quibusdam ab enim doloribus voluptate voluptatum architecto esse, culpa distinctio ut
+                        iure beatae excepturi. Reiciendis, eaque! .</div>
+                    <div class="grid-item resumen" style="text-align: justify; ">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Rem animi nulla, inventore in temporibus nostrum expedita dolore reiciendis
+                        quo? Facere maxime dignissimos non molestias laboriosam sequi porro numquam reiciendis veniam.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quo vitae qui culpa non, laudantium totam in provident inventore iusto a
+                        aspernatur ex modi tenetur tempore quibusdam repudiandae asperiores delectus reiciendis. Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Repellat incidunt porro aliquam dolor
+                        voluptatem quibusdam ab enim doloribus voluptate voluptatum architecto esse, culpa distinctio ut
+                        iure beatae excepturi. Reiciendis, eaque! .</div>
+                    <div class="grid-item resumen" style="text-align: justify; ">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Rem animi nulla, inventore in temporibus nostrum expedita dolore reiciendis
+                        quo? Facere maxime dignissimos non molestias laboriosam sequi porro numquam reiciendis veniam.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quo vitae qui culpa non, laudantium totam in provident inventore iusto a
+                        aspernatur ex modi tenetur tempore quibusdam repudiandae asperiores delectus reiciendis. Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Repellat incidunt porro aliquam dolor
+                        voluptatem quibusdam ab enim doloribus voluptate voluptatum architecto esse, culpa distinctio ut
+                        iure beatae excepturi. Reiciendis, eaque! .</div>
+                    <div class="grid-item firma" style="text-align:right; padding-top: 1%;">Hace 2hs - Por Brooks Barnes
+                        | Views: 43</div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+
+            <div class="grid-container-foot">
+
+                <div class="grid-itemf logorosf"><img src="mundo.png" ,
+                        style="width: 70px; height: 70px; margin-bottom: -20px; margin-top: 40px;"></div>
+
+                <div class="grid-itemf titulorosf">
+                    <h1>Noticias</h1>
+                </div>
+
+                <div class="grid-itemf fraserosf" style="margin-bottom: 60px; margin-top: -40px;">
+                    <h3>Blog de Noticias”</h3>
+                </div>
+
+            </div>
+
+        </div>
 </body>
+
 </html>

@@ -291,6 +291,10 @@
     border-radius: 0px;
 }
 
+.noticia {
+    text-decoration: none;
+}
+
 .notaprin {
     background-color: white;
     /* Color de fondo del hijo */
