@@ -873,6 +873,10 @@ h3 {
         display: flex;
     }
 
+    .notastitulo {
+        display: none;
+    }
+
     .vermas {
         font-size: 12px;
     }
